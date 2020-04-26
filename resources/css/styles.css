@@ -5,3 +5,46 @@
 body {
   background-color: burlywood;
 }
+
+header {
+  border: 1px solid red;
+}
+.logo {
+  display: inline-block;
+  border: 1px solid blue;
+  background-image: url(https://image.freepik.com/free-vector/wolf-logo-stock-vector_56473-305.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top:1em;
+  height: 80px;
+  width: 80px;
+}
+
+
+nav {
+  display: inline-block;
+  border: 1px solid blue;
+}
+main {
+  border: 1px solid red;
+}
+
+article {
+  float: left;
+  width: 80%;
+  border: 1px solid blue;
+}
+
+aside {
+  border: 1px solid blue;
+}
+
+footer {
+  border: 1px solid red;
+}
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+}
