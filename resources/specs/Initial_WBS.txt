@@ -1,0 +1,65 @@
+Initial Work Break Down Structure.
+
+Goal: Make basic design system for a website
+Specifications:
+
+Single Paged Website
+Simple Front-End Web Site HTML & Content: 
+  1.Upper Navigation Bar, Main(Top Banner, Left Article, Right Aside) , Footer
+  2.Navigation: Topic Links.
+  3.Article: Limited to 4 topics : Colors, Fonts, Text Styles, Snippets 
+  4.Aside: What’s new Section.
+  4.Img: 
+     1 Banner Section with picture: https://static.oc-static.com/prod/images/paths/illustrations/61/15435992831411_path61.png
+     1 Logo: https://image.freepik.com/free-vector/wolf-logo-stock-vector_56473-305.jpg
+     1 Supporting Pictures per Topic.
+      Colors: https://upload.wikimedia.org/wikipedia/commons/2/21/64_365_Color_Macro_%285498808099%29.jpg
+      Fonts: https://betterthansuccess.com/wp-content/uploads/2016/06/font-example-1440x720.jpg
+      Text Styles: https://www.cultpens.com/files/cp/imagelibrary/pencyclopedia/mechanical-pencils/sizes.jpg
+      Snippet: https://blog.zoom.us/wordpress/wp-content/uploads/2018/07/34DE9EB3-1154-47AB-B88E-DE3964B717E1.png
+
+
+
+Simple Front-End Web Site CSS: 
+  1.Positioning: Box-Model Positioning, Ref: https://cdn.semrush.com/blog/static/media/5d/18/5d181389b833eea362b97555f575fae6/semantic-html5-markup-unrelated-aside-kalicube.png
+  2.Color Scheme: Bright Accent Colors, #242582,#553D67,#F64C72,#99738E,#2F2FA2 Ref: https://visme.co/blog/website-color-schemes/
+  3.Typography Scheme : 2 External Font Ref: Heading: Lora & Body :Roboto,  https://fontpair.co/
+  4.Qwerks: Trailing Nav Bar.
+
+Simple Responsive Website:
+  1. MediaQueries: Mobile (<=480px), Tablet (<=768px), Laptop (<=1600px), Desktop (>1600px)
+Optional: Color Overlays
+Optional: WCAG Considerations
+
+Steps:
+Single Paged Website:
+  1.Make simple File Structure 
+Simple Front-End Web Site HTML & Content: 
+  1.Make basic Semantic HTML Structure & Boiler plate.
+  2.Add NavBar Links
+  3.Add Logo Div & Img
+  4.Add Banner Title
+  5.Add Topics Headers
+  6.Add Aside Headers
+  7.Add Footer CopyRight, Add Short Contact
+  8.Add Topic Pictures
+  9.Add Banner Summary
+  10.Add Topic Summary
+  11.Add Aside Bullet-Point Description
+  12.Add Topic Content
+Simple Front-End Web Site CSS: 
+  1. Add NavBar Positioning(Logo Left, Links Right, Spaces, Inline Block)
+  2. Add Banner Positionning (Title Left, Summary Left)
+  3. Add Banner Background Img + Overlay
+  4. Add Article/Aside Separation
+  5. Add Article Positioning
+  6. Add Aside Positioning
+  7. Add Supporting Picture Positioning
+  8. Add Footer Positioning
+  9. Modify Typography of Various Section.
+  10. Add Color Scheme
+  11. Add Trailing Nav Bar
+Simple Responsive Website:
+  1. Add MediaQueries: Laptop (<=1600px), Desktop (>1600px) - No Change.
+  2. Tablet (<=768px) - Drop Logo, Move Aside Under Banner, Drop Footer Short Contact 
+  3. Mobile (<=480px) - NavBar Vertical, No Trailing Options
