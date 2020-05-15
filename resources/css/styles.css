@@ -63,3 +63,80 @@ footer div {
 .clearfix {
   clear: both;
 }
+
+/* Color Sections */
+
+
+.color-box {
+  display: inline-block;
+  width: 20%;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+/* Reds */
+
+.reds {
+
+}
+
+#red-color-1 {
+  background-color: #8B0000;
+}
+
+#red-color-2 {
+  background-color: #B22222;
+}
+
+#red-color-3 {
+  background-color: #FF0000;
+}
+
+#red-color-4 {
+  background-color: #DC143C;
+}
+
+/* Green */
+
+.greens {
+
+}
+
+#green-color-1 {
+  background-color: #006400;
+}
+
+#green-color-2 {
+  background-color: #008000;
+}
+
+#green-color-3 {
+  background-color: #32CD32;
+}
+
+#green-color-4 {
+  background-color: #7CFC00;
+}
+
+/* Blue */
+
+.blues {
+
+}
+
+#blue-color-1 {
+  background-color: #00008B;
+}
+
+#blue-color-2 {
+  background-color: #0000FF;
+}
+
+#blue-color-3 {
+  background-color: #00BFFF;
+}
+
+#blue-color-4 {
+  background-color: #B0E0E6;
+}
