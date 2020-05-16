@@ -53,8 +53,8 @@ nav ul li {
 }
 
 img {
-  width: 50px;
-  height: 50px;
+  width: 200px;
+  height: 200px;
 }
 footer div {
   border: 1px solid green;
@@ -143,40 +143,56 @@ footer div {
 }
 
 /* Color Scheme Sections */
-
-.swatch-1 {
+.no-space {
+  font-size: 0; /*word spacing fix-fix gap bug */
+  border: 1px solid black;
+}
+.normal-space {
+  font-size: 16px ; /*word spacing fix-fix gap bug */
+}
+.color-separator {
+  margin: 0 0;
+  padding: 0 0;
+  width: 50%;
+  height: 100px;
   display: inline-block;
-  width: 100%;
-  height: auto;
-  border: 3px solid black;
+  vertical-align: middle;
 }
 
-.swatch-2 {  
+
+.swatch-1 {
+  margin: 0 0;
   display: inline-block;
-  width: 20%;
-  height: auto;
-  border: 3px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+.swatch-2 {
+  margin: 0 0;  
+  display: inline-block;
+  width: 50%;
+  height: 50%;
 }
 
 .swatch-3 {
+  margin: 0 0;
   display: inline-block;
-  width: 20%;
-  height: auto;
-  border: 3px solid black;
+  width: 50%;
+  height: 50%;
 }
 
 .swatch-4 {
+  margin: 0 0;
   display: inline-block;
-  width: 20%;
-  height: auto;
-  border: 3px solid black;
+  width: 50%;
+  height: 50%;
 }
 
 .swatch-5 {
+  margin: 0 0;
   display: inline-block;
-  width: 20%;
-  height: auto;
-  border: 3px solid black;
+  width: 50%;
+  height: 50%;
 }
 
 /*color combination */
@@ -206,51 +222,51 @@ footer div {
   background-color: #553D67;
 }
 #color-combination-2 .swatch-3 {
-  background-color: #E8A87C;
+  background-color: #F64C72;
 }
 #color-combination-2 .swatch-4 {
-  background-color: #C38D9E;
+  background-color: #99738E;
 }
 #color-combination-2 .swatch-5 {
-  background-color: #41B3A3;
+  background-color: #2F2FA2;
 }
 
 
 /*color combination */
 
 #color-combination-3 .swatch-1 {
-  background-color: #E27D60;
+  background-color: #8D8741;
 }
 #color-combination-3 .swatch-2 {
-  background-color: #085DCB;
+  background-color: #659DBD;
 }
 #color-combination-3 .swatch-3 {
-  background-color: #E8A87C;
+  background-color: #DAAD86;
 }
 #color-combination-3 .swatch-4 {
-  background-color: #C38D9E;
+  background-color: #BC986A;
 }
 #color-combination-3 .swatch-5 {
-  background-color: #41B3A3;
+  background-color: #FBEEC1;
 }
 
 
 /*color combination */
 
 #color-combination-4 .swatch-1 {
-  background-color: #E27D60;
+  background-color: #05386B;
 }
 #color-combination-4 .swatch-2 {
-  background-color: #085DCB;
+  background-color: #379683;
 }
 #color-combination-4 .swatch-3 {
-  background-color: #E8A87C;
+  background-color: #5CDB95;
 }
 #color-combination-4 .swatch-4 {
-  background-color: #C38D9E;
+  background-color: #8EE4AF;
 }
 #color-combination-4 .swatch-5 {
-  background-color: #41B3A3;
+  background-color: #EDF5E1;
 }
 
 
