@@ -6,6 +6,8 @@
   <title>WebsiteDesignSystem</title>
   <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
   <link href="./resources/css/styles.css" type="text/css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism-dark.min.css" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 </head>
 <body>
   <header>
@@ -247,7 +249,7 @@
             <div class="wdp-box">
               <p>Logo</p>
               <div>
-                <p>.logo {
+                <pre><code class="language-css">.logo {
                   height: 80px;
                   width: 80px;
                   background-image: url("../img/spaceship.png");
@@ -256,13 +258,13 @@
                   display: inline-block;
                   position: relative;
                   top: 1em;
-                }</p>
+                }</code></pre>
               </div>
             </div>
             <div class="wdp-box">
               <p>Banner</p>
               <div>
-                <p>#banner {
+                <pre><code class="language-css">#banner {
     
                   background-image: url('camel-background.png');
                   background-position: center;
@@ -273,30 +275,31 @@
                   align-items: center;
                   text-align: center;
                   height: 46rem;
-                }</p>
+                }
+              }</code></pre>
               </div>
             </div>
             <div class="wdp-box">
               <p>Border-Box</p>
               <div>
-                <p>* {
+                <pre><code class="language-css">* {
                   box-sizing: border-box;
-                }</p>
+                }</code></pre>
               </div>
             </div>
             <div class="wdp-box">
               <p>Resetting Default</p>
               <div>
-                <p>* {
+                <pre><code class="language-css">* {
                   margin: 0;
                   padding: 0;
-                }</p>
+                }</code></pre>
               </div>
             </div>
             <div class="wdp-box">
               <p>Overlay</p>
               <div>
-                <p>footer {
+                <pre><code class="language-css">footer {
                   position: relative;
                   height: 30rem;
                   padding: 7.8125rem 30% 0 30%;
@@ -321,20 +324,20 @@
                 
                 footer * {
                   position: relative; /* Makes elements display above overlay. */
-                }</p>
+                }</code></pre>
               </div>
             </div>
             <div class="wdp-box">
               <p>Clear</p>
               <div>
-                <p>div {
+                <pre><code class="language-css">div {
                   width: 200px;
                   float: left;
                 }
                 
                 div.special {
                   clear: left;
-                }</p>
+                }</code></pre>
               </div>
             </div>
           </div>
