@@ -65,6 +65,15 @@ footer div {
   clear: both;
 }
 
+.mid-box {
+  display: inline-block;
+  width: 33%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
 /* Color Sections */
 
 /* Base Color Sections */
@@ -271,3 +280,4 @@ footer div {
 }
 
 
+/* Text Sections */
