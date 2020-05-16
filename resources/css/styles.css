@@ -16,15 +16,16 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  top:1em;
   height: 80px;
   width: 80px;
+  vertical-align: middle;
 }
 
 
 nav {
   display: inline-block;
   border: 1px solid blue;
+  vertical-align: middle;
 }
 main {
   border: 1px solid red;
