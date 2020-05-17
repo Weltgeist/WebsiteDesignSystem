@@ -281,3 +281,32 @@ footer div {
 
 
 /* Text Sections */
+
+/* Common Text Modification */
+
+
+th {
+  text-transform: uppercase;
+}
+
+ td,  th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(70, 83, 204);
+  color: white;
+}
+
+.table-container {
+  overflow-x:auto;
+}
+
