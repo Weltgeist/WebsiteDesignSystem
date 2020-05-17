@@ -60,7 +60,9 @@ Simple Front-End Web Site CSS:
   10. Add Color Scheme
   11. Add Trailing Nav Bar
   12. Add Topic CSS view
+  13. Size Elements 
 Simple Responsive Website:
   1. Add MediaQueries: Laptop (<=1600px), Desktop (>1600px) - No Change.
   2. Tablet (<=768px) - Drop Logo, Move Aside Under Banner, Drop Footer Short Contact 
   3. Mobile (<=480px) - NavBar Vertical, No Trailing Options
+  4. Size Elements Responsively
