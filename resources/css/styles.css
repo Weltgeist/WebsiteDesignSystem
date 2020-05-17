@@ -17,9 +17,10 @@ header {
   background-image: url(https://image.freepik.com/free-vector/wolf-logo-stock-vector_56473-305.jpg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
   position: relative;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 10%;
   vertical-align: middle;
 }
 
@@ -29,27 +30,40 @@ nav {
   vertical-align: middle;
   background-color:  hsl(240, 100%, 50%);
   color: black;
-  margin: 0px -5px;
-  padding: 5px 0px;
+  padding: 0 0;
+  margin: 0 0;
+  /*margin: 0px -5px;
+  padding: 5px 0px;*/
+  width: 90%;
+  height: 60px;
+  border: 1px solid red;
+  position: relative;
 }
 
 nav ul {
-  margin: -5px 0px;
-  padding: 0px 10px;
-  background-color:  hsl(240, 100%, 50%);
+  margin: 0 0;
+  padding: 0 5px;
+  /*margin: -5px 0px;
+  padding: 0px 10px;*/
+  background-color:  hsl(0, 53%, 51%);
   color: black;
+  height: 100%;
+  border: 1px solid red;
+  position: absolute;
+  right: 5px;
 }
 
 nav ul li {
   display: inline-block;
   text-decoration: none;
   border: 1px solid green;
-  padding: 0px 14px;
-  margin: 5px -5px;
   background-color:  hsl(240, 100%, 50%);
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
+  padding: 15px 20px;
+  margin: 0 0;
+  height: 100%;
 }
 
 nav ul li:hover {
@@ -58,6 +72,9 @@ nav ul li:hover {
 
 nav ul li a{
   color: black;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
 }
 
 
