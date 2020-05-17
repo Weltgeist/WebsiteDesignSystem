@@ -111,6 +111,40 @@ footer div {
   clear: both;
 }
 
+
+/* Banner */
+.banner {
+  height: 200px;
+}
+
+.banner div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.banner-desc {
+  width: 400px;
+}
+.banner-desc h1 {
+  font-size: 12px;
+}
+.banner-desc p {
+  font-size: 8px;
+}
+
+.jumbotron {
+  border: 1px solid blue;
+  background-image: url(https://static.oc-static.com/prod/images/paths/illustrations/61/15435992831411_path61.png);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+/* Containers */
+
 .mid-box {
   display: inline-block;
   width: 33%;
