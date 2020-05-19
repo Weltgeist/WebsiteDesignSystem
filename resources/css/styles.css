@@ -7,17 +7,18 @@ html {
 }
 
 body {
-  background-color: burlywood;
+  background-color: white;
 }
 
 /* Header */
 
 header {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
+  background-color: #2F2FA2;
 }
 .logo {
   display: inline-block;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   background-image: url(https://image.freepik.com/free-vector/wolf-logo-stock-vector_56473-305.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -30,9 +31,9 @@ header {
 
 nav {
   display: inline-block;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   vertical-align: middle;
-  background-color:  hsl(240, 100%, 50%);
+  background-color: #2F2FA2;
   color: black;
   padding: 0 0;
   margin: 0 0;
@@ -40,7 +41,7 @@ nav {
   padding: 5px 0px;*/
   width: 90%;
   height: 60px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   position: relative;
 }
 
@@ -49,10 +50,10 @@ nav ul {
   padding: 0 5px;
   /*margin: -5px 0px;
   padding: 0px 10px;*/
-  background-color:  hsl(0, 53%, 51%);
+  background-color: #2F2FA2;
   color: black;
   height: 100%;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   position: absolute;
   right: 5px;
 }
@@ -60,8 +61,8 @@ nav ul {
 nav ul li {
   display: inline-block;
   text-decoration: none;
-  border: 1px solid green;
-  background-color:  hsl(240, 100%, 50%);
+  /*border: 1px solid green;*/
+  background-color: #2F2FA2;
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
@@ -71,7 +72,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background-color: hsl(0, 0%, 35%);
+  background-color:#F64C72;
 }
 
 nav ul li a{
@@ -84,25 +85,25 @@ nav ul li a{
 /* General */
 
 main {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .core {
   float: left;
   width: 80%;
-  border: 1px solid purple;
+  /*border: 1px solid purple;*/
   padding: 0 40px;
 }
 
 .extra {
   float: right;
   width: 20%;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   padding: 0 40px 0 0;
 }
 
 footer {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   padding: 0 40px;
 }
 
@@ -112,7 +113,7 @@ img {
   height: 200px;
 }
 footer div {
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
 .clearfix {
@@ -123,6 +124,7 @@ footer div {
 /* Banner */
 .banner {
   height: 400px;
+  background-color: #2F2FA2;
 }
 
 .banner div {
@@ -132,22 +134,24 @@ footer div {
 
 .banner-desc {
   width: 400px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
+  margin-left: 20px;
 }
 .banner-desc h1 {
-  font-size: 12px;
+  font-size: 24px;
+  color: white;
 }
 .banner-desc p {
-  font-size: 8px;
+  font-size: 12px;
+  color: white;
 }
 
 .jumbotron {
-  border: 1px solid blue;
   background-image: url(https://static.oc-static.com/prod/images/paths/illustrations/61/15435992831411_path61.png);
   background-repeat: no-repeat;
   background-size: cover ;
   background-position: center;
-  background-color: pink;
+  background-color: #2F2FA2;
   position: relative;
   height: 300px;
   width: 300px;
@@ -164,9 +168,30 @@ footer div {
   border: 1px solid black;
   border-radius: 10px;
   margin: 10px auto;
+  background-color: #242582;
+}
+
+/* Color Scheme */
+
+#color-sec {
+  background-color: white;
+}
+
+#fonts-sec {
+  background-color: #2F2FA2;
+}
+
+#text-styles-sec  {
+    background-color: white;
+}
+
+#snippet-sec {
+  background-color: #2F2FA2;
+
 }
 
 /* Color Sections */
+
 
 /* Base Color Sections */
 
