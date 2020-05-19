@@ -81,6 +81,7 @@ nav ul li a{
   text-decoration: none;
 }
 
+/* General */
 
 main {
   border: 1px solid red;
@@ -90,16 +91,19 @@ main {
   float: left;
   width: 80%;
   border: 1px solid purple;
+  padding: 0 40px;
 }
 
 .extra {
   float: right;
   width: 20%;
   border: 1px solid blue;
+  padding: 0 40px 0 0;
 }
 
 footer {
   border: 1px solid red;
+  padding: 0 40px;
 }
 
 
@@ -128,6 +132,7 @@ footer div {
 
 .banner-desc {
   width: 400px;
+  border: 1px solid red;
 }
 .banner-desc h1 {
   font-size: 12px;
@@ -146,6 +151,8 @@ footer div {
   position: relative;
   height: 300px;
   width: 300px;
+  margin-left: 200px;
+  margin-top: 50px;
 }
 
 /* Containers */
