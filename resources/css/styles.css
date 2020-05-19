@@ -66,9 +66,10 @@ nav ul li {
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
-  padding: 15px 20px;
-  margin: 0 0;
-  height: 100%;
+  padding: 5px 10px;
+  margin: 10px 5px;
+  height: 30px;
+  border-radius: 5px;
 }
 
 nav ul li:hover {
@@ -81,7 +82,19 @@ nav ul li a{
   text-align: center;
   text-decoration: none;
 }
+/*
+#login-button {
+  border:2px solid #F64C72;
+}
 
+#login-button a {
+  color: #F64C72;
+}
+
+#login-button a:hover {
+  color: white;
+}
+*/
 /* General */
 
 main {
