@@ -223,16 +223,31 @@ footer div {
   background-color: #2F2FA2;
 }
 
-.color-prim-2 {
-  background-color: #242582;
+.color-prim-1 p,
+.color-prim-1 h1,
+.color-prim-1 h2,
+.color-prim-1 h3  {
+  color: white;
 }
+
+.color-prim-2 {
+  background-color: #553D67;
+}
+
+.color-prim-2 p,
+.color-prim-2 h1,
+.color-prim-2 h2,
+.color-prim-2 h3  {
+  color: white;
+}
+
 
 .color-prim-3  {
     background-color: #F64C72;
 }
 
 .color-sec-1  {
-  background-color: #553D67;
+  background-color: #242582;
 }
 
 .color-sec-2  {
@@ -243,8 +258,22 @@ footer div {
   background-color: black;
 }
 
+.black p,
+.black h1,
+.black h2,
+.black h3 {
+  color: white;
+}
+
 .white {
   background-color: white;
+}
+
+.white p,
+.white h1,
+.white h2,
+.white h3 {
+  color: black;
 }
 
 .gray {
