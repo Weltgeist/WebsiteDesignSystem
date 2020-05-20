@@ -108,7 +108,6 @@ main {
   float: left;
   width: 100%;
   /*border: 1px solid purple;*/
-  padding: 0 40px;
 }
 
 .extra {
@@ -127,6 +126,7 @@ main {
 footer {
   /*border: 1px solid red;*/
   padding: 0 40px;
+  height: 200px;
 }
 
 
@@ -146,7 +146,6 @@ footer div {
 /* Banner */
 .banner {
   height: 550px;
-  background-color: #2F2FA2;
 }
 
 .banner div {
@@ -212,21 +211,44 @@ footer div {
 
 /* Color Scheme */
 
-#color-sec {
+.color-prim-1 {
+  background-color: #2F2FA2;
+}
+
+.color-prim-2 {
+  background-color: #242582;
+}
+
+.color-prim-3  {
+    background-color: #F64C72;
+}
+
+.color-sec-1  {
+  background-color: #553D67;
+}
+
+.color-sec-2  {
+  background-color: #99738E;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
   background-color: white;
 }
 
-#fonts-sec {
-  background-color: #2F2FA2;
+.gray {
+  background-color: gray;
 }
 
-#text-styles-sec  {
-    background-color: white;
+.core section {
+  padding: 0 40px;
 }
 
-#snippet-sec {
-  background-color: #2F2FA2;
-
+.extra section {
+  padding: 0 10px;
 }
 
 /* Color Sections */
