@@ -17,6 +17,7 @@ Simple Front-End Web Site HTML & Content:
       Fonts: https://betterthansuccess.com/wp-content/uploads/2016/06/font-example-1440x720.jpg
       Text Styles: https://www.cultpens.com/files/cp/imagelibrary/pencyclopedia/mechanical-pencils/sizes.jpg
       Snippet: https://blog.zoom.us/wordpress/wp-content/uploads/2018/07/34DE9EB3-1154-47AB-B88E-DE3964B717E1.png
+  5.Video: https://www.youtube.com/watch?v=wc5krC28ynQ
 
 
 
