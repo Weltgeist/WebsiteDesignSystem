@@ -139,13 +139,28 @@ footer div {
 
 /* Banner */
 .banner {
-  height: 400px;
+  height: 600px;
   background-color: #2F2FA2;
 }
 
 .banner div {
   display: inline-block;
   vertical-align: middle;
+}
+
+.video-top {
+  display: block;
+  height: 100px;
+  width: 560px;
+  margin: auto;
+  position: relative;
+}
+
+.video-top iframe {
+  position: relative;
+  bottom: 160px;
+  /*padding: 20px;
+  background-color: white;*/
 }
 
 .banner-desc {
