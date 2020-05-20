@@ -295,10 +295,14 @@ footer div {
 
 .color-box {
   display: inline-block;
-  width: 20%;
+  width: 25%;
   height: auto;
-  border: 3px solid black;
-  border-radius: 10px;
+}
+
+.reds,
+.greens,
+.blues {
+  border: 1px solid black;
 }
 
 /* Reds */
