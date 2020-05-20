@@ -123,6 +123,13 @@ main {
   vertical-align: middle;
 }
 
+.core section h1 {
+  margin-top: 0;
+}
+
+.core section {
+}
+
 footer {
   /*border: 1px solid red;*/
   padding: 0 40px;
@@ -145,7 +152,7 @@ footer div {
 
 /* Banner */
 .banner {
-  height: 550px;
+  height: 650px;
 }
 
 .banner div {
@@ -191,10 +198,11 @@ footer div {
   background-position: center;
   background-color: #2F2FA2;
   position: relative;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   margin-left: 200px;
   margin-top: 50px;
+  border-radius: 50px;
 }
 
 /* Containers */
