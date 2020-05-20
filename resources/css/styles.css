@@ -106,16 +106,22 @@ main {
 
 .core {
   float: left;
-  width: 80%;
+  width: 100%;
   /*border: 1px solid purple;*/
   padding: 0 40px;
 }
 
 .extra {
-  float: right;
-  width: 20%;
+  /*float: right;*/
+  /*width: 20%;*/
   /*border: 1px solid blue;*/
   padding: 0 40px 0 0;
+}
+
+.extra section,
+.extra div {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 footer {
@@ -139,7 +145,7 @@ footer div {
 
 /* Banner */
 .banner {
-  height: 600px;
+  height: 550px;
   background-color: #2F2FA2;
 }
 
@@ -149,7 +155,7 @@ footer div {
 }
 
 .video-top {
-  display: block;
+  /*display: block;*/
   height: 100px;
   width: 560px;
   margin: auto;
@@ -158,9 +164,11 @@ footer div {
 
 .video-top iframe {
   position: relative;
-  bottom: 160px;
+  bottom: 200px;
   /*padding: 20px;
   background-color: white;*/
+  border: 6px solid white;
+  border-radius: 10px;
 }
 
 .banner-desc {
