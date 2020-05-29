@@ -288,6 +288,30 @@ footer div {
   padding: 0 10px;
 }
 
+.core section .supporting-desc {
+  display: inline-block;
+}
+
+.img-fx-1 {
+
+}
+
+.img-fx-2 {
+  opacity: 0.8;
+}
+
+.img-fx-3 {
+  opacity: 0.6;
+}
+
+.img-fx-4 {
+  opacity: 0.4;
+}
+
+.img-fx-5 {
+  opacity: 0.2;
+}
+
 /* Color Sections */
 
 
